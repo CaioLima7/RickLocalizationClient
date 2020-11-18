@@ -1,0 +1,62 @@
+<div class="row" style="justify-content:space-evenly">
+  <mat-card class="w-25 col-12 col-sm-12 col-md-3" *ngFor="let item of obs | async">
+    <img src="assets/images/{{item.FileNameMorty}}.png" alt="respectivo morty" />
+    <img src="assets/images/{{item.FileNameRick}}.png" alt="respectivo rick" />
+    <div class="text-right">
+      <button mat-fab color="primary" routerLink="/details/{{item.RickId}}">
+        <mat-icon>subdirectory_arrow_right</mat-icon>
+      </button>
+    </div>
+  </mat-card>
+</div>
+<mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+<!--<div class="row mt-4" style="justify-content:space-evenly">
+  <mat-card class="w-25 col-12 col-sm-12  col-md-3">
+    <img src="assets/images/morty.png" alt="respectivo morty" />
+    <img src="assets/images/rick.png" alt="respectivo rick" />
+    <div class="text-right">
+      <button mat-fab color="primary" routerLink="/details">
+        <mat-icon>subdirectory_arrow_right</mat-icon>
+      </button>
+    </div>
+  </mat-card>
+  <mat-card class="w-25 col-12 col-sm-12  col-md-3">
+    <img src="assets/images/morty.png" alt="respectivo morty" />
+    <img src="assets/images/rick.png" alt="respectivo rick" />
+    <div class="text-right">
+      <button mat-fab color="primary">
+        <mat-icon>subdirectory_arrow_right</mat-icon>
+      </button>
+    </div>
+  </mat-card>
+  <mat-card class="w-25 col-12 col-sm-12  col-md-3">
+    <img src="assets/images/morty.png" alt="respectivo morty" />
+    <img src="assets/images/rick.png" alt="respectivo rick" />
+    <div class="text-right">
+      <button mat-fab color="primary">
+        <mat-icon>subdirectory_arrow_right</mat-icon>
+      </button>
+    </div>
+  </mat-card>
+</div>-->
+<!--<mat-paginator [length]="100"
+               [pageSize]="10"
+               [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>-->
+
+
+<!--<mat-card class="example-card" *ngFor="let card of obs | async">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{card.title}}</mat-card-title>
+    <mat-card-subtitle>{{card.subtitle}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{card.text}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+<mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>-->

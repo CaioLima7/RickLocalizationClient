@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\browsing-history",
+    "\\src\\app\\pages\\details",
+    "\\src\\app\\pages\\listing",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\pages\\pages.module.ts",
+  "PreviewInSolutionExplorer": false
+}
