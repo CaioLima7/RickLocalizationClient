@@ -1,5 +1,14 @@
 # RickLocalization
 
+#HOW TO 
+Para iniciar o projeto, deve ter o npm instalado na máquina 
+e executar os seguintes comandos:
+  npm install
+  npm update
+  ng s
+
+OBS: api deve estar ligada em conjunto desse projeto.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
 
 ## Development server
